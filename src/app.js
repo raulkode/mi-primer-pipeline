@@ -8,5 +8,4 @@ export function evaluarRiesgo(impacto, probabilidad) {
   const puntaje = impacto * probabilidad;
   const nivel = puntaje <= 2 ? 'BAJO' : puntaje <= 4 ? 'MEDIO' : 'ALTO';
   return { puntaje, nivel };
-  const pruebaInsegura = eval('2 + 2');
 }
